@@ -38,7 +38,10 @@
   background-color: rgb(81, 154, 130);
   color: white;
 }
-
+.right-bar:hover a{
+  background-color: black;
+  
+}
 .text-style {
   padding: 1rem;
   text-decoration: none;
@@ -75,11 +78,15 @@
   margin-bottom: 1rem;
 }
       /* İNPUT AREA */
+.form-area{
+  position: relative;
+  width: fit-content;
+}
 .form-area input {
-  width: 400px;
+  width: 20rem;
   padding: 0.5rem;
   border-radius: 10px;
-  position: relative;
+  
   text-align: center;
 }
 .form-area i{
@@ -97,6 +104,8 @@
   border-radius: 50%;
   color: white;
   padding: 0.5rem;
+  right: 0;
+  top: 4%;
   
   
 }
